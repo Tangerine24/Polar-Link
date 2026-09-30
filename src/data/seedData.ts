@@ -485,7 +485,7 @@ export const SEED_MEDIA: Media[] = [
     title: 'Historic Dakshin Gangotri — India\'s First Antarctic Base (1983)',
     description: 'Archival photograph of Dakshin Gangotri base building under construction on the Queen Maud Land ice shelf during the 3rd Indian Expedition.',
     sourceId: 'src-isea-41-official',
-    stationId: 'sta-maitri',
+    stationId: 'sta-dakshin-gangotri',
     expeditionId: 'exp-isea-40',
     capturedAt: '1983-12-26',
     creatorOrCredit: 'Indian Antarctic Programme Archive / Wikimedia Commons',
