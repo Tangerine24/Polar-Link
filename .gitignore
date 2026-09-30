@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Production build output
+dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Database files (sqlite dynamic database seeded on boot)
+*.db
+*.sqlite
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Audit, context, and scratch files (kept locally only)
+audit/
+*.zip
+PROGRESS.md
+PROJECT_CONTEXT.*
+scratch/

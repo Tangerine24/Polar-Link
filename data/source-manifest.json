@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "POLAR-LINK Official Source Manifest",
+  "version": "5.0.0",
+  "policy": "OFFICIAL-SOURCE-FIRST — Every public factual assertion requires an authoritative source citation. Synthetic records are strictly isolated for demonstration testing.",
+  "sources": [
+    {
+      "localId": "NCPOR-STN-BHR-01",
+      "sourceTitle": "NCPOR Permanent Research Station Bharati — Official Profile & Geodetic Baseline",
+      "sourceOrganization": "National Centre for Polar and Ocean Research (NCPOR), Ministry of Earth Sciences",
+      "sourceUrl": "https://ncpor.res.in/antarctis/stations/bharati",
+      "retrievedDate": "2026-03-15",
+      "contentType": "OFFICIAL_DATA_PORTAL",
+      "verificationStatus": "VERIFIED_REAL",
+      "rightsStatus": "Open Access / Government of India Public Domain",
+      "canonicalCoordinates": {
+        "lat": -69.4068,
+        "lng": 76.1953,
+        "elevationMeters": 35.0,
+        "locationDescription": "Larsemann Hills, East Antarctica"
+      },
+      "commissionedDate": "2012-03-18",
+      "notes": "Authoritative permanent station record. Bharati commissioned on 18 March 2012 at ~35 m ASL."
+    },
+    {
+      "localId": "NCPOR-STN-MAI-01",
+      "sourceTitle": "NCPOR Permanent Research Station Maitri — Official Profile & Oasis Baseline",
+      "sourceOrganization": "National Centre for Polar and Ocean Research (NCPOR), Ministry of Earth Sciences",
+      "sourceUrl": "https://ncpor.res.in/antarctis/stations/maitri",
+      "retrievedDate": "2026-03-15",
+      "contentType": "OFFICIAL_DATA_PORTAL",
+      "verificationStatus": "VERIFIED_REAL",
+      "rightsStatus": "Open Access / Government of India Public Domain",
+      "canonicalCoordinates": {
+        "lat": -70.766,
+        "lng": 11.7308,
+        "elevationMeters": 117.0,
+        "locationDescription": "Schirmacher Oasis, Queen Maud Land, East Antarctica"
+      },
+      "commissionedDate": "1989-01-26",
+      "notes": "Second Indian Antarctic research station, commissioned 1989 on ice-free rocky oasis."
+    },
+    {
+      "localId": "NCPOR-STN-DKG-01",
+      "sourceTitle": "NCPOR Historical Base Dakshin Gangotri — Archives & Transition Record",
+      "sourceOrganization": "Department of Ocean Development (now MoES) / NCPOR",
+      "sourceUrl": "https://ncpor.res.in/antarctis/stations/dakshin-gangotri",
+      "retrievedDate": "2026-03-15",
+      "contentType": "OFFICIAL_DATA_PORTAL",
+      "verificationStatus": "VERIFIED_REAL",
+      "rightsStatus": "Open Access / Government of India Public Domain",
+      "canonicalCoordinates": {
+        "lat": -70.0937,
+        "lng": 12.0039,
+        "elevationMeters": 25.0,
+        "locationDescription": "Dakshin Gangotri Glacier / Ice Shelf, Princess Astrid Coast"
+      },
+      "commissionedDate": "1983-12-26",
+      "notes": "First permanent base (1983-1990), now maintained as historic preservation and summer camp."
+    },
+    {
+      "localId": "NCPOR-EXP-41-OFFICIAL",
+      "sourceTitle": "Press Information Bureau / MoES: Launch of 41st Indian Scientific Expedition to Antarctica",
+      "sourceOrganization": "Ministry of Earth Sciences (MoES) / Press Information Bureau, Government of India",
+      "sourceUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=1771960",
+      "retrievedDate": "2026-03-15",
+      "contentType": "OFFICIAL_GOVERNMENT",
+      "verificationStatus": "VERIFIED_REAL",
+      "rightsStatus": "PIB Open Government Data / Official Release",
+      "notes": "41st ISEA launched on 15 November 2021. Core programs: Amery Ice Shelf geology & ice-core drilling reconnaissance near Maitri."
+    },
+    {
+      "localId": "NPDC-MET-CAT-01",
+      "sourceTitle": "National Polar Data Center (NPDC) — Automated Weather Station (AWS) Meteorological Master Catalogue",
+      "sourceOrganization": "National Polar Data Center (NPDC) / NCPOR",
+      "sourceUrl": "https://npdc.ncpor.res.in/datasets/antarctic-meteorology",
+      "retrievedDate": "2026-03-15",
+      "contentType": "OFFICIAL_DATASET",
+      "verificationStatus": "CATALOG_ONLY",
+      "rightsStatus": "Data Access Protocol / Request Authorized",
+      "notes": "Official catalogue entry for continuous surface meteorology datasets across Indian stations."
+    },
+    {
+      "localId": "NCPOR-LIB-PUB-01",
+      "sourceTitle": "NCPOR Digital Library Repository — Polar Publications & Technical Expedition Reports Series",
+      "sourceOrganization": "NCPOR Institutional Digital Library, Ministry of Earth Sciences",
+      "sourceUrl": "https://ncpor.res.in/library/digital-repository",
+      "retrievedDate": "2026-03-15",
+      "contentType": "OFFICIAL_LIBRARY",
+      "verificationStatus": "VERIFIED_REAL",
+      "rightsStatus": "Institutional Repository / Open Search",
+      "notes": "Official digital archive index for Antarctic Expedition Technical Reports and scientific monographs."
+    },
+    {
+      "localId": "NCPOR-ACT-OUTREACH-01",
+      "sourceTitle": "NCPOR National Science Day & Student Polar Awareness Campaign",
+      "sourceOrganization": "NCPOR Outreach Division",
+      "sourceUrl": "https://ncpor.res.in/outreach/science-day-2024",
+      "retrievedDate": "2026-03-15",
+      "contentType": "INSTITUTIONAL_ACTIVITY",
+      "verificationStatus": "VERIFIED_REAL",
+      "rightsStatus": "Public Information",
+      "notes": "Annual polar science outreach bringing school & university researchers into live satellite interaction with Bharati & Maitri."
+    },
+    {
+      "localId": "DEMO-BHR-001",
+      "sourceTitle": "Illustrative Polar Observation Report — DEMO-BHR-001",
+      "sourceOrganization": "POLAR-LINK Test Fixture Laboratory",
+      "sourceUrl": "local://fixtures/DEMO-BHR-001.pdf",
+      "retrievedDate": "2026-03-30",
+      "contentType": "SYNTHETIC_TEST",
+      "verificationStatus": "SYNTHETIC_TEST",
+      "rightsStatus": "Demo Test Use Only",
+      "notes": "ILLUSTRATIVE DEMONSTRATION RECORD — NOT AN OFFICIAL SOURCE. Designed strictly for OCR proof, Claim Guard boundary checks, and error injection demos."
+    }
+  ]
+}
