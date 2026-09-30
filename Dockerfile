@@ -1,14 +1,14 @@
 # Production Dockerfile for POLAR-LINK v5.0 Full-Stack Application
-# Stage 1: Build frontend static bundle
-FROM node:20-slim AS builder
+# Stage 1: Build frontend static bundle with Node 22 LTS
+FROM node:22-slim AS builder
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
 COPY . .
 RUN npm run build
 
-# Stage 2: Production runtime
-FROM node:20-slim AS runner
+# Stage 2: Production runtime with Node 22 LTS (supports built-in node:sqlite)
+FROM node:22-slim AS runner
 WORKDIR /app
 ENV NODE_ENV=production
 ENV PORT=3000
@@ -25,5 +25,5 @@ COPY --from=builder /app/tsconfig.json ./
 
 EXPOSE 3000
 
-# Start unified full-stack server
+# Start unified full-stack server with experimental-sqlite flag
 CMD ["npm", "start"]

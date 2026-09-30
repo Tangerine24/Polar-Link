@@ -3,11 +3,14 @@
   "private": true,
   "version": "3.0.0",
   "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "scripts": {
     "dev": "vite",
-    "server": "tsx server/index.ts",
-    "start": "tsx server/index.ts",
-    "seed": "tsx server/seed.ts",
+    "server": "tsx --experimental-sqlite server/index.ts",
+    "start": "tsx --experimental-sqlite server/index.ts",
+    "seed": "tsx --experimental-sqlite server/seed.ts",
     "build": "tsc && vite build",
     "lint": "tsc --noEmit",
     "test": "vitest run",
