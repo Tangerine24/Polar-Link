@@ -230,8 +230,8 @@ export function seedDatabase() {
     INSERT OR REPLACE INTO media (
       id, type, title, description, sourceId, stationId, expeditionId, activityId,
       capturedAt, creatorOrCredit, rightsStatus, accessStatus, externalUrl, thumbnailPath,
-      provenance, verificationStatus
-    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+      embedUrl, provenance, verificationStatus
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `);
 
   for (const m of SEED_MEDIA) {
@@ -250,6 +250,7 @@ export function seedDatabase() {
       m.accessStatus,
       m.externalUrl || null,
       m.thumbnailPath || null,
+      m.embedUrl || null,
       m.provenance,
       m.verificationStatus
     );

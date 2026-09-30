@@ -164,6 +164,7 @@ export function initDatabase() {
       accessStatus TEXT,
       externalUrl TEXT,
       thumbnailPath TEXT,
+      embedUrl TEXT,
       provenance TEXT,
       verificationStatus TEXT
     );

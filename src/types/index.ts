@@ -355,6 +355,7 @@ export interface Media {
   accessStatus: 'PUBLIC' | 'RESTRICTED' | 'CATALOG_ONLY';
   externalUrl?: string;
   thumbnailPath?: string;
+  embedUrl?: string;
   provenance: string;
   verificationStatus: VerificationStatus;
 }
